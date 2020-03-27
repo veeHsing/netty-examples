@@ -14,7 +14,7 @@ import java.util.concurrent.Executors;
  * telnet 127.0.0.1 6666
  * 发起一个会话
  * 每开一个窗口，就会有一新建一个线程发起socket会话
- * BIO 每个窗口会阻塞监听。。。。
+ * BIO 每个窗口会阻塞监听。。。。...
  */
 public class BIOServer {
     public static void main(String[] args) throws IOException {
